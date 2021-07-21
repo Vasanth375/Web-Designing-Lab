@@ -2,25 +2,28 @@
 <head>
 <style>
 
-table,th,td{ border:1px solid black; background-color:pink; border-collapse:collapse; text-align:center; }
-vasu{ border:1px solid black; background-color:red; font-size:75%}
-tfooter{ border:1px yellow;}
+<!-- CSS style to provide single style to inherited attributes-->
+table,td { border:1px solid black; background-color:pink; border-collapse:collapse; text-align:left; }
+th{ border:1px solid black; background-color:green; border-collapse:collapse; text-align:left; }
+vasu{ border:1px solid black; background-color:red; font-size:75% }
+tfooter{ border:1px yellow; }
 
 </style>
 </head>
-<body style="background-color:black">
-<table>
-<thead>
+<body style="background-color:white">
+
+<table> <!-- table attribute to create table-->
+<thead> <!-- table head to create heading of the table-->
 	<th>Sem </th>
 	<th>Marks</th>
 	<th>Attendence </th>
 </thead>
 
-<tbody>
-<tr>
+<tbody> <!-- table body to create rows of the table-->
+<tr>    <!-- table row creates single row to the table-->
 	<td>1st Sem</td>
 	<td>7.27</td>
-	<td> 85%</td>
+	<td>85%</td>
 </tr>
 
 <tr>
@@ -36,7 +39,7 @@ tfooter{ border:1px yellow;}
 </tr>
 </tbody>
 
-<tfooter>
+<tfooter><!-- table footer means final row of the table-->
 	<td>Sem</td>
 	<td>Marks</td>
 	<td>Attendence</td>
